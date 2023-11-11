@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new html and css practices</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="main-nav">
+        <div class="titale">GOLIEX TRANSPORT</div>
+        <div class="input">
+            <input type="text" placeholder="where would like to visit">
+        </div>
+        <div class="main-links" id="home">
+            <ui class="link">
+                <li class="icon" onclick="myFunction()"> <a href=""><span class="material-icons">
+                    menu
+                    </span> </a></li>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ARTICLE</a></li>
+                <li><a href=""> SERVICE</a></li>
+                <li><a href="">ABOUT US</a></li>
+            </ui>
+        </div>
+    </div>
+    <div class="main-container">
+        200 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Assumenda in, laudantium maiores, quaerat dolore nihil neque
+          ab ad consectetur minima inventore
+         aliquam a impedit molestias! Porro ipsam ipsa atque vitae.
+    </div>
+    <div class="second-main">
+        200 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Laborum optio magnam nulla natus mollitia, distinctio reprehenderit
+         quas qui, deserunt omnis nobis quia
+         debitis tenetur quam facilis illo iusto sed earum.
+    </div>
+
+
+
+    <script>
+        function myFunction() {
+         var x = document.getElementById("home");
+          if (x.className === "main-links") {
+             x.className += " responsive";
+            } else {
+            x.className = "main-links";
+  }
+}
+    </script>
+</body>
+</html>
